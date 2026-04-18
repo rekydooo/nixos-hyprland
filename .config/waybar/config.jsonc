@@ -1,0 +1,39 @@
+{
+  "height": 20,
+  "width": 1920,
+  "spacing": 4,
+
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["custom/battery", "hyprland/language"],
+
+  "hyprland/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "warp-on-scroll": false,
+    "format": "{name}",
+    "format-icons": {
+      "urgent": "-",
+      "focused": "+",
+      "default": "_",
+    },
+  },
+
+  "custom/battery": {
+    "exec": "~/.config/waybar/battery.sh",
+    "interval": 1
+  },
+
+  "hyrland/language": {
+    "format": "{}",
+    "format-ru": "RU",
+    "format-en": "ENG",
+    "format-ua": "UA",
+  },
+
+  "clock": {
+    "tooltip-format": "<big>{:%Y %B}</big>/n<tt><small>{calendar}</small></tt>",
+    "format-alt": "{:%Y-%m-%d}",
+  },
+}
+
