@@ -1,0 +1,1 @@
+my cfg nixos hyprland
