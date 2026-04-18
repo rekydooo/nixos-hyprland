@@ -1,0 +1,11 @@
+width=600
+height=400
+mode=drun
+colors=colors
+filter_rate=100
+allow_makeup=true
+halign=fill
+orientation=vertical
+content_halign=fill
+drun-display_generic=true
+
